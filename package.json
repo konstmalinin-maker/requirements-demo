@@ -1,0 +1,15 @@
+{
+  "name": "requirements-demo-commit-rules",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Conventional commits with mandatory REQ links",
+  "scripts": {
+    "prepare": "husky",
+    "commitlint": "commitlint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7"
+  }
+}
