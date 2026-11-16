@@ -50,7 +50,14 @@ def test_fr002_ur002_list(manager):
 @pytest.mark.req("FR-003", "UR-003")
 @pytest.mark.parametrize(
     "query,expected",
-    [("PYTHON", ["Python"]), ("ЗАМЕТКА", ["Другой"]), ("", []), ("  ", []), ("нетсовпадений", [])],
+    [
+        ("PYTHON", ["Python"]),
+        ("  python  ", ["Python"]),
+        ("ЗАМЕТКА", ["Другой"]),
+        ("", []),
+        ("  ", []),
+        ("нетсовпадений", []),
+    ],
 )
 def test_fr003_ur003_search(manager, query, expected):
     manager.add_note("Python", "Язык")

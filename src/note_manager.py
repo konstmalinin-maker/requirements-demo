@@ -52,7 +52,7 @@ class NoteManager:
     def search_notes(self, query: str) -> list[Note]:
         if not query.strip():
             return []
-        query = query.casefold()
+        query = query.strip().casefold()
         return [
             n
             for n in self.list_notes()

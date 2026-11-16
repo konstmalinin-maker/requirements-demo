@@ -80,7 +80,7 @@
     "status": "implemented"
   },
   "FR-003": {
-    "version": 1,
+    "version": 2,
     "issue": 11,
     "tests": [
       "tests/test_notes.py::test_fr003_ur003_search"
