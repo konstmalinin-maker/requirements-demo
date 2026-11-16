@@ -19,6 +19,7 @@ src = ["messages_ru.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+junit_family = "xunit1"
 markers = ["req(*ids): links a collected test to stable requirement IDs"]
 
 [tool.coverage.run]

@@ -1,0 +1,24 @@
+......................................................                   [100%]
+=============================== warnings summary ===============================
+tests/test_acceptance.py::test_nfr001_list_10000_under_500ms
+  tests/test_acceptance.py:55: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')
+    @pytest.mark.req("NFR-001", "FR-002")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+src/__init__.py           0      0   100%
+src/cli.py               80      3    96%   22, 101, 105
+src/exporters.py         14      0   100%
+src/messages.py           6      0   100%
+src/note_manager.py      64      0   100%
+src/storage.py           36      0   100%
+---------------------------------------------------
+TOTAL                   200      3    98%
+Coverage XML written to file /workspace/pr5-coverage.xml
+Coverage JSON written to file docs/evidence/coverage.json
+Required test coverage of 80% reached. Total coverage: 98.50%
+54 passed, 1 warning in 0.75s

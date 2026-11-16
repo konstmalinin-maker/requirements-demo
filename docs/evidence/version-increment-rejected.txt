@@ -1,0 +1,3 @@
+FAIL: FR-001: ожидалась v2, получена v1; changed=True
+FAIL: При изменении требования обновите changelog.md
+Exit code: 1
