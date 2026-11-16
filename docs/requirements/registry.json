@@ -1,0 +1,154 @@
+{
+  "BR-001": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_br001_offline_cycle"
+    ],
+    "status": "implemented"
+  },
+  "BR-002": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_br002_help_and_basic_scenario"
+    ],
+    "status": "implemented"
+  },
+  "BR-003": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_br003_export_plugin"
+    ],
+    "status": "implemented"
+  },
+  "UR-001": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr001_ur001_add_persists"
+    ],
+    "status": "implemented"
+  },
+  "UR-002": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr002_ur002_list"
+    ],
+    "status": "implemented"
+  },
+  "UR-003": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr003_ur003_search"
+    ],
+    "status": "implemented"
+  },
+  "UR-004": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr004_ur004_edit"
+    ],
+    "status": "implemented"
+  },
+  "UR-005": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_cli.py::test_fr005_ur005_delete_confirmation"
+    ],
+    "status": "implemented"
+  },
+  "FR-001": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr001_ur001_add_persists"
+    ],
+    "status": "implemented"
+  },
+  "FR-002": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_cli.py::test_fr002_list_cli"
+    ],
+    "status": "implemented"
+  },
+  "FR-003": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr003_ur003_search"
+    ],
+    "status": "implemented"
+  },
+  "FR-004": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_notes.py::test_fr004_ur004_edit"
+    ],
+    "status": "implemented"
+  },
+  "FR-005": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_cli.py::test_fr005_ur005_delete_confirmation"
+    ],
+    "status": "implemented"
+  },
+  "NFR-001": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_nfr001_list_10000_under_500ms"
+    ],
+    "status": "implemented"
+  },
+  "NFR-002": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_storage.py::test_nfr002_failed_replace_preserves_original"
+    ],
+    "status": "implemented"
+  },
+  "NFR-003": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_storage.py::test_nfr003_permissions_0600"
+    ],
+    "status": "implemented"
+  },
+  "NFR-004": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_cli.py::test_nfr004_russian_errors"
+    ],
+    "status": "implemented"
+  },
+  "NFR-005": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_nfr005_public_modules_importable"
+    ],
+    "status": "implemented"
+  },
+  "NFR-006": {
+    "version": 1,
+    "issue": null,
+    "tests": [
+      "tests/test_acceptance.py::test_nfr006_messages_externalized"
+    ],
+    "status": "implemented"
+  }
+}
