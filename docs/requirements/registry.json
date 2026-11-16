@@ -1,7 +1,7 @@
 {
   "BR-001": {
     "version": 1,
-    "issue": null,
+    "issue": 1,
     "tests": [
       "tests/test_acceptance.py::test_br001_offline_cycle"
     ],
@@ -9,7 +9,7 @@
   },
   "BR-002": {
     "version": 1,
-    "issue": null,
+    "issue": 2,
     "tests": [
       "tests/test_acceptance.py::test_br002_help_and_basic_scenario"
     ],
@@ -17,7 +17,7 @@
   },
   "BR-003": {
     "version": 1,
-    "issue": null,
+    "issue": 3,
     "tests": [
       "tests/test_acceptance.py::test_br003_export_plugin"
     ],
@@ -25,7 +25,7 @@
   },
   "UR-001": {
     "version": 1,
-    "issue": null,
+    "issue": 4,
     "tests": [
       "tests/test_notes.py::test_fr001_ur001_add_persists"
     ],
@@ -33,7 +33,7 @@
   },
   "UR-002": {
     "version": 1,
-    "issue": null,
+    "issue": 5,
     "tests": [
       "tests/test_notes.py::test_fr002_ur002_list"
     ],
@@ -41,7 +41,7 @@
   },
   "UR-003": {
     "version": 1,
-    "issue": null,
+    "issue": 6,
     "tests": [
       "tests/test_notes.py::test_fr003_ur003_search"
     ],
@@ -49,7 +49,7 @@
   },
   "UR-004": {
     "version": 1,
-    "issue": null,
+    "issue": 7,
     "tests": [
       "tests/test_notes.py::test_fr004_ur004_edit"
     ],
@@ -57,7 +57,7 @@
   },
   "UR-005": {
     "version": 1,
-    "issue": null,
+    "issue": 8,
     "tests": [
       "tests/test_cli.py::test_fr005_ur005_delete_confirmation"
     ],
@@ -65,7 +65,7 @@
   },
   "FR-001": {
     "version": 1,
-    "issue": null,
+    "issue": 9,
     "tests": [
       "tests/test_notes.py::test_fr001_ur001_add_persists"
     ],
@@ -73,7 +73,7 @@
   },
   "FR-002": {
     "version": 1,
-    "issue": null,
+    "issue": 10,
     "tests": [
       "tests/test_cli.py::test_fr002_list_cli"
     ],
@@ -81,7 +81,7 @@
   },
   "FR-003": {
     "version": 1,
-    "issue": null,
+    "issue": 11,
     "tests": [
       "tests/test_notes.py::test_fr003_ur003_search"
     ],
@@ -89,7 +89,7 @@
   },
   "FR-004": {
     "version": 1,
-    "issue": null,
+    "issue": 12,
     "tests": [
       "tests/test_notes.py::test_fr004_ur004_edit"
     ],
@@ -97,7 +97,7 @@
   },
   "FR-005": {
     "version": 1,
-    "issue": null,
+    "issue": 13,
     "tests": [
       "tests/test_cli.py::test_fr005_ur005_delete_confirmation"
     ],
@@ -105,7 +105,7 @@
   },
   "NFR-001": {
     "version": 1,
-    "issue": null,
+    "issue": 14,
     "tests": [
       "tests/test_acceptance.py::test_nfr001_list_10000_under_500ms"
     ],
@@ -113,7 +113,7 @@
   },
   "NFR-002": {
     "version": 1,
-    "issue": null,
+    "issue": 15,
     "tests": [
       "tests/test_storage.py::test_nfr002_failed_replace_preserves_original"
     ],
@@ -121,7 +121,7 @@
   },
   "NFR-003": {
     "version": 1,
-    "issue": null,
+    "issue": 16,
     "tests": [
       "tests/test_storage.py::test_nfr003_permissions_0600"
     ],
@@ -129,7 +129,7 @@
   },
   "NFR-004": {
     "version": 1,
-    "issue": null,
+    "issue": 17,
     "tests": [
       "tests/test_cli.py::test_nfr004_russian_errors"
     ],
@@ -137,7 +137,7 @@
   },
   "NFR-005": {
     "version": 1,
-    "issue": null,
+    "issue": 18,
     "tests": [
       "tests/test_acceptance.py::test_nfr005_public_modules_importable"
     ],
@@ -145,7 +145,7 @@
   },
   "NFR-006": {
     "version": 1,
-    "issue": null,
+    "issue": 19,
     "tests": [
       "tests/test_acceptance.py::test_nfr006_messages_externalized"
     ],
