@@ -1,6 +1,5 @@
 """Extra A: generate the actual RTM from git history and collected tests."""
 
-
 from traceability_lib import REPO, ROOT, commits, definitions, registry, source_commits, test_links
 
 
