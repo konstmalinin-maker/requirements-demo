@@ -1,0 +1,97 @@
+tests-and-traceability	Tests and coverage threshold	﻿2026-11-16T12:11:23.2533739Z ##[group]Run python -m pytest tests/ -v --cov=src --cov-fail-under=80 --cov-report=term-missing --cov-report=json:coverage.json --cov-report=xml:coverage.xml --cov-report=html:htmlcov --junitxml=junit.xml
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2535098Z [36;1mpython -m pytest tests/ -v --cov=src --cov-fail-under=80 --cov-report=term-missing --cov-report=json:coverage.json --cov-report=xml:coverage.xml --cov-report=html:htmlcov --junitxml=junit.xml[0m
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2588906Z shell: /usr/bin/bash -e {0}
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2589152Z env:
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2589405Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2589807Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2590198Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2590549Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2590996Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2591378Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.2591756Z ##[endgroup]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5946653Z ============================= test session starts ==============================
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5947442Z platform linux -- Python 3.12.16, pytest-9.2.0, pluggy-1.7.0 -- /opt/hostedtoolcache/Python/3.12.16/x64/bin/python
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5947922Z cachedir: .pytest_cache
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5948305Z rootdir: /home/runner/work/requirements-demo/requirements-demo
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5948670Z configfile: pyproject.toml
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.5948915Z plugins: cov-7.1.0
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.6730051Z collecting ... collected 54 items
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.6730368Z 
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.7042875Z tests/test_acceptance.py::test_br001_offline_cycle PASSED                [  1%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.7175135Z tests/test_acceptance.py::test_br002_help_and_basic_scenario PASSED      [  3%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.7198177Z tests/test_acceptance.py::test_br003_export_plugin PASSED                [  5%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8390470Z tests/test_acceptance.py::test_nfr001_list_10000_under_500ms PASSED      [  7%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8397508Z tests/test_acceptance.py::test_nfr005_public_modules_importable PASSED   [  9%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8403423Z tests/test_acceptance.py::test_nfr006_messages_externalized PASSED       [ 11%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8905822Z tests/test_acceptance.py::test_cli_module_entrypoint_and_environment_path PASSED [ 12%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8943725Z tests/test_cli.py::test_fr001_add_cli PASSED                             [ 14%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.8984694Z tests/test_cli.py::test_fr002_list_cli PASSED                            [ 16%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9039525Z tests/test_cli.py::test_cli_search_and_edit PASSED                       [ 18%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9070399Z tests/test_cli.py::test_fr005_ur005_delete_confirmation[\u043d\u0435\u0442-False] PASSED [ 20%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9102089Z tests/test_cli.py::test_fr005_ur005_delete_confirmation[-False] PASSED   [ 22%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9151753Z tests/test_cli.py::test_fr005_ur005_delete_confirmation[\u0434\u0430-True] PASSED [ 24%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9202138Z tests/test_cli.py::test_fr005_ur005_delete_confirmation[yes-True] PASSED [ 25%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9244123Z tests/test_cli.py::test_fr005_eof_does_not_delete PASSED                 [ 27%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9274147Z tests/test_cli.py::test_nfr004_russian_errors[arguments0] PASSED         [ 29%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9304401Z tests/test_cli.py::test_nfr004_russian_errors[arguments1] PASSED         [ 31%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9331193Z tests/test_cli.py::test_nfr004_russian_errors[arguments2] PASSED         [ 33%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9353203Z tests/test_cli.py::test_nfr004_russian_errors[arguments3] PASSED         [ 35%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9382670Z tests/test_cli.py::test_nfr004_russian_errors[arguments4] PASSED         [ 37%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9407785Z tests/test_cli.py::test_cli_io_error PASSED                              [ 38%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9465998Z tests/test_cli.py::test_cli_export_and_unknown_format PASSED             [ 40%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9500019Z tests/test_notes.py::test_fr001_ur001_add_persists PASSED                [ 42%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9518645Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[-Body-\u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u0435\u043d] PASSED [ 44%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9533150Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[ \n-Body-\u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u0435\u043d] PASSED [ 46%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9550798Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[title2-Body-\u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439] PASSED [ 48%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9568178Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[Title--\u0442\u0435\u043b\u043e \u0437\u0430\u043c\u0435\u0442\u043a\u0438 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e] PASSED [ 50%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9584859Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[Title- \t-\u0442\u0435\u043b\u043e \u0437\u0430\u043c\u0435\u0442\u043a\u0438 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e] PASSED [ 51%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9613014Z tests/test_notes.py::test_fr001_rejects_invalid_without_write[Title-body5-\u0442\u0435\u043b\u043e \u0437\u0430\u043c\u0435\u0442\u043a\u0438 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u043e\u0435] PASSED [ 53%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9634350Z tests/test_notes.py::test_fr001_exact_limits PASSED                      [ 55%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9694575Z tests/test_notes.py::test_fr002_ur002_list PASSED                        [ 57%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9724573Z tests/test_notes.py::test_fr003_ur003_search[PYTHON-expected0] PASSED    [ 59%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9751900Z tests/test_notes.py::test_fr003_ur003_search[  python  -expected1] PASSED [ 61%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9779929Z tests/test_notes.py::test_fr003_ur003_search[\u0417\u0410\u041c\u0415\u0422\u041a\u0410-expected2] PASSED [ 62%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9808038Z tests/test_notes.py::test_fr003_ur003_search[-expected3] PASSED          [ 64%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9835857Z tests/test_notes.py::test_fr003_ur003_search[  -expected4] PASSED        [ 66%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9863966Z tests/test_notes.py::test_fr003_ur003_search[\u043d\u0435\u0442\u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439-expected5] PASSED [ 68%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9899518Z tests/test_notes.py::test_fr004_ur004_edit PASSED                        [ 70%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9918019Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes0] PASSED  [ 72%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9936574Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes1] PASSED  [ 74%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9957584Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes2] PASSED  [ 75%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:23.9980850Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes3] PASSED  [ 77%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0004185Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes4] PASSED  [ 79%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0027925Z tests/test_notes.py::test_fr004_invalid_edit_is_atomic[changes5] PASSED  [ 81%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0058268Z tests/test_notes.py::test_unknown_id_preserves_storage PASSED            [ 83%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0095008Z tests/test_storage.py::test_nfr002_failed_replace_preserves_original PASSED [ 85%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0107569Z tests/test_storage.py::test_serialization_failure_cleans_temporary PASSED [ 87%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0136406Z tests/test_storage.py::test_nfr003_permissions_0600 PASSED               [ 88%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0151664Z tests/test_storage.py::test_corrupted_storage_rejected[{broken] PASSED   [ 90%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0164256Z tests/test_storage.py::test_corrupted_storage_rejected[{}] PASSED        [ 92%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0177952Z tests/test_storage.py::test_corrupted_storage_rejected[[1]] PASSED       [ 94%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0190214Z tests/test_storage.py::test_corrupted_storage_rejected[[{"id": "x"}]] PASSED [ 96%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.0202765Z tests/test_storage.py::test_corrupted_storage_rejected[[{"id":1,"title":"a","body":"b","created_at":"c","updated_at":"d"}]] PASSED [ 98%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1361707Z tests/test_storage.py::test_non_utf8_storage_rejected PASSED             [100%]
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1362331Z ERROR: Coverage failure: total of 49 is less than fail-under=80
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1362602Z 
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1362611Z 
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1362956Z - generated xml file: /home/runner/work/requirements-demo/requirements-demo/junit.xml -
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1363558Z ================================ tests coverage ================================
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1364076Z _______________ coverage: platform linux, python 3.12.16-final-0 _______________
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1364372Z 
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1364558Z Name                   Stmts   Miss  Cover   Missing
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1364971Z ----------------------------------------------------
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1365336Z src/__init__.py            0      0   100%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1365707Z src/cli.py                80      3    96%   22, 101, 105
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1366098Z src/coverage_demo.py     200    200     0%   3-301
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1366563Z src/exporters.py          14      0   100%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1366889Z src/messages.py            6      0   100%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1367219Z src/note_manager.py       64      0   100%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1367546Z src/storage.py            36      0   100%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1367895Z ----------------------------------------------------
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1368243Z TOTAL                    400    203    49%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1368563Z Coverage HTML written to dir htmlcov
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1368888Z Coverage XML written to file coverage.xml
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1369243Z Coverage JSON written to file coverage.json
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1369693Z FAIL Required test coverage of 80% not reached. Total coverage: 49.25%
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1370200Z ============================== 54 passed in 0.53s ==============================
+tests-and-traceability	Tests and coverage threshold	2026-11-16T12:11:24.1608623Z ##[error]Process completed with exit code 1.
