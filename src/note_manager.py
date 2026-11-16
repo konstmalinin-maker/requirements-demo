@@ -1,7 +1,7 @@
 """FR-001…FR-005: управление заметками независимо от командного интерфейса."""
 
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from uuid import uuid4
 
 from src.messages import UserError, message
@@ -33,7 +33,9 @@ class NoteManager:
     def list_notes(self) -> list[Note]:
         rows = self.storage.load()
         fields = {"id", "title", "body", "created_at", "updated_at"}
-        if any(set(row) != fields or not all(isinstance(v, str) for v in row.values()) for row in rows):
+        if any(
+            set(row) != fields or not all(isinstance(v, str) for v in row.values()) for row in rows
+        ):
             raise UserError(message("invalid_storage"))
         return [Note(**row) for row in rows]
 
@@ -41,7 +43,7 @@ class NoteManager:
         title = validate_text(title, "title", 100)
         body = validate_text(body, "body", 10_000)
         notes = self.list_notes()
-        now = datetime.now(timezone.utc).isoformat()
+        now = datetime.now(UTC).isoformat()
         note = Note(uuid4().hex, title, body, now, now)
         notes.append(note)
         self.storage.save([asdict(n) for n in notes])
@@ -51,7 +53,11 @@ class NoteManager:
         if not query.strip():
             return []
         query = query.casefold()
-        return [n for n in self.list_notes() if query in n.title.casefold() or query in n.body.casefold()]
+        return [
+            n
+            for n in self.list_notes()
+            if query in n.title.casefold() or query in n.body.casefold()
+        ]
 
     def edit_note(self, note_id: str, title: str | None = None, body: str | None = None) -> Note:
         if title is None and body is None:
@@ -65,7 +71,7 @@ class NoteManager:
                     note.title = new_title
                 if new_body is not None:
                     note.body = new_body
-                note.updated_at = datetime.now(timezone.utc).isoformat()
+                note.updated_at = datetime.now(UTC).isoformat()
                 self.storage.save([asdict(n) for n in notes])
                 return note
         raise UserError(message("not_found", id=note_id))

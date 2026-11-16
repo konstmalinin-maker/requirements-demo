@@ -30,12 +30,17 @@ class RussianParser(argparse.ArgumentParser):
 
 def parser():
     cli = RussianParser(prog="note", description=message("description"))
-    cli.add_argument("--storage", type=Path, help=message("storage_help"),
-                     default=Path(os.environ.get("NOTES_FILE", "~/.notes.json")).expanduser())
+    cli.add_argument(
+        "--storage",
+        type=Path,
+        help=message("storage_help"),
+        default=Path(os.environ.get("NOTES_FILE", "~/.notes.json")).expanduser(),
+    )
     commands = cli.add_subparsers(dest="command", required=True)
     for name in ["add", "list", "search", "edit", "delete", "export"]:
-        sub = commands.add_parser(name, help=message(f"{name}_help"),
-                                  description=message(f"{name}_help"))
+        sub = commands.add_parser(
+            name, help=message(f"{name}_help"), description=message(f"{name}_help")
+        )
         if name in ("edit", "delete"):
             sub.add_argument("id", help=message("id_help"))
         if name in ("add", "edit"):

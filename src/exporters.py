@@ -11,7 +11,9 @@ from src.note_manager import Note
 class ExportRegistry:
     def __init__(self):
         self.handlers: dict[str, Callable[[list[Note]], str]] = {
-            "json": lambda notes: json.dumps([asdict(n) for n in notes], ensure_ascii=False, indent=2)
+            "json": lambda notes: json.dumps(
+                [asdict(n) for n in notes], ensure_ascii=False, indent=2
+            )
         }
 
     def register(self, name: str, handler: Callable[[list[Note]], str]) -> None:
