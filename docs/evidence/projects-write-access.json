@@ -1,0 +1,1 @@
+{"data":{"addProjectV2ItemById":null},"errors":[{"type":"FORBIDDEN","path":["addProjectV2ItemById"],"extensions":{"saml_failure":false,"ip_allow_list_failure":false},"locations":[{"line":1,"column":39}],"message":"Resource not accessible by integration"}]}

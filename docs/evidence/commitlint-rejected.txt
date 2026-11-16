@@ -1,0 +1,16 @@
+$ git commit --allow-empty -m "feat: add something"
+⧗   --- input ---
+feat: add something
+✖   feat/fix/test must include a REQ reference, e.g. (FR-001) [req-reference]
+
+✖   found 1 problems, 0 warnings
+ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+husky - commit-msg script failed (code 1)
+
+Exit code: 1. HEAD unchanged.
