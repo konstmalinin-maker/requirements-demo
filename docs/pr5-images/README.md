@@ -19,3 +19,5 @@
 - [14-reverse-traceability-failures.png](14-reverse-traceability-failures.png) — Обнаружены осиротевший тест и ложный статус реализации без коммита.
 - [15-requirement-version-checks.png](15-requirement-version-checks.png) — Изменение без новой версии отклонено; согласованная редакция успешно проверена.
 - [09-requirement-v2.png](09-requirement-v2.png) — Фактическое определение FR-003@v2 с правилом удаления пробелов запроса.
+- [18-kanban-board.png](18-kanban-board.png) — GitHub Kanban: четыре колонки и карточки с REQ-ID.
+- [19-kanban-req-id-verification.png](19-kanban-req-id-verification.png) — Проверка GitHub API: все 19 REQ-ID точно совпадают с ID требований.

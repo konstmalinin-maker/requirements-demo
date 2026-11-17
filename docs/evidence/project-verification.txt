@@ -1,0 +1,27 @@
+GitHub Projects verification — Practice 5
+https://github.com/users/konstmalinin-maker/projects/2
+Public: yes | Statuses: Backlog -> In Progress -> Review -> Done
+REQ-ID: TEXT (backed by IssueFieldTextValue)
+
+Issue   Expected REQ   Actual REQ-ID  Status     Result
+#1      BR-001         BR-001         Done       PASS
+#2      BR-002         BR-002         Done       PASS
+#3      BR-003         BR-003         Done       PASS
+#4      UR-001         UR-001         Done       PASS
+#5      UR-002         UR-002         Done       PASS
+#6      UR-003         UR-003         Done       PASS
+#7      UR-004         UR-004         Done       PASS
+#8      UR-005         UR-005         Done       PASS
+#9      FR-001         FR-001         Done       PASS
+#10     FR-002         FR-002         Done       PASS
+#11     FR-003         FR-003         Done       PASS
+#12     FR-004         FR-004         Done       PASS
+#13     FR-005         FR-005         Done       PASS
+#14     NFR-001        NFR-001        Done       PASS
+#15     NFR-002        NFR-002        Done       PASS
+#16     NFR-003        NFR-003        Done       PASS
+#17     NFR-004        NFR-004        Done       PASS
+#18     NFR-005        NFR-005        Done       PASS
+#19     NFR-006        NFR-006        Done       PASS
+
+PASS: 19 of 19 exact REQ-ID values; all 19 closed cards are Done.
