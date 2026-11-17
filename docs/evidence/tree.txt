@@ -1,0 +1,70 @@
+.
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   └── requirement.md
+│   └── workflows
+│       ├── issue-requirements.yml
+│       └── traceability.yml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── commitlint.config.js
+├── docs
+│   ├── evidence
+│   │   ├── ci-artifacts.json
+│   │   ├── ci-main-passed.json
+│   │   ├── ci-threshold-failed.json
+│   │   ├── commitlint-accepted.txt
+│   │   ├── commitlint-rejected.txt
+│   │   ├── coverage-ci-failed.txt
+│   │   ├── coverage.json
+│   │   ├── false-rtm-status-failure.md
+│   │   ├── orphan-test-failure.md
+│   │   ├── performance.txt
+│   │   ├── projects-write-access.json
+│   │   ├── requirement-issues.json
+│   │   ├── rtm-auto-commit.json
+│   │   ├── tests-passed.txt
+│   │   ├── traceability-local.txt
+│   │   ├── tree.txt
+│   │   ├── version-increment-accepted.txt
+│   │   └── version-increment-rejected.txt
+│   ├── glossary.md
+│   ├── pr5-images
+│   │   └── 01-pr-open.png
+│   ├── requirements
+│   │   ├── authoring-data.json
+│   │   ├── business.md
+│   │   ├── changelog.md
+│   │   ├── functional.md
+│   │   ├── non-functional.md
+│   │   ├── registry.json
+│   │   └── user.md
+│   ├── srs.md
+│   ├── traceability-report.md
+│   └── traceability.md
+├── package-lock.json
+├── package.json
+├── pyproject.toml
+├── requirements.txt
+├── scripts
+│   ├── check_requirement_versions.py
+│   ├── check_traceability.py
+│   ├── generate_rtm.py
+│   └── traceability_lib.py
+├── src
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── exporters.py
+│   ├── messages.py
+│   ├── messages_ru.json
+│   ├── note_manager.py
+│   └── storage.py
+└── tests
+    ├── conftest.py
+    ├── test_acceptance.py
+    ├── test_cli.py
+    ├── test_notes.py
+    └── test_storage.py
+
+11 directories, 57 files

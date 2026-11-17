@@ -1,0 +1,1001 @@
+{
+  "data": {
+    "user": {
+      "projectV2": {
+        "title": "Requirements Demo — Практика №5",
+        "url": "https://github.com/users/konstmalinin-maker/projects/2",
+        "public": true,
+        "fields": {
+          "nodes": [
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB00",
+              "name": "Title",
+              "dataType": "TITLE"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB1A",
+              "name": "Assignees",
+              "dataType": "ASSIGNEES"
+            },
+            {
+              "id": "PVTSSF_lAHOE9ZKFs4Br2RizhqHB1M",
+              "name": "Status",
+              "options": [
+                {
+                  "id": "f75ad846",
+                  "name": "Backlog"
+                },
+                {
+                  "id": "47fc9ee4",
+                  "name": "In Progress"
+                },
+                {
+                  "id": "f47831cd",
+                  "name": "Review"
+                },
+                {
+                  "id": "98236657",
+                  "name": "Done"
+                }
+              ]
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB1c",
+              "name": "Labels",
+              "dataType": "LABELS"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB1o",
+              "name": "Linked pull requests",
+              "dataType": "LINKED_PULL_REQUESTS"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB10",
+              "name": "Milestone",
+              "dataType": "MILESTONE"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB2A",
+              "name": "Repository",
+              "dataType": "REPOSITORY"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB2c",
+              "name": "Reviewers",
+              "dataType": "REVIEWERS"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB2o",
+              "name": "Parent issue",
+              "dataType": "PARENT_ISSUE"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB20",
+              "name": "Sub-issues progress",
+              "dataType": "SUB_ISSUES_PROGRESS"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB3E",
+              "name": "Created",
+              "dataType": "CREATED"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB3Y",
+              "name": "Updated",
+              "dataType": "UPDATED"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHB3k",
+              "name": "Closed",
+              "dataType": "CLOSED"
+            },
+            {
+              "id": "PVTF_lAHOE9ZKFs4Br2RizhqHgXU",
+              "name": "REQ-ID",
+              "dataType": "TEXT"
+            }
+          ]
+        },
+        "views": {
+          "nodes": [
+            {
+              "name": "View 1",
+              "layout": "BOARD_LAYOUT"
+            },
+            {
+              "name": "View 2",
+              "layout": "TABLE_LAYOUT"
+            }
+          ]
+        },
+        "items": {
+          "totalCount": 19,
+          "nodes": [
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJc84",
+              "content": {
+                "number": 1,
+                "title": "[BR-001] Автономность",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/1"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "BR-001"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[BR-001] Автономность",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJc-w",
+              "content": {
+                "number": 2,
+                "title": "[BR-002] Простота использования",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/2"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "BR-002"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[BR-002] Простота использования",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJc_o",
+              "content": {
+                "number": 3,
+                "title": "[BR-003] Расширяемость экспорта",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/3"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "BR-003"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[BR-003] Расширяемость экспорта",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdAw",
+              "content": {
+                "number": 4,
+                "title": "[UR-001] Создание заметки",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/4"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "UR-001"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[UR-001] Создание заметки",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdBs",
+              "content": {
+                "number": 5,
+                "title": "[UR-002] Просмотр списка",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/5"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "UR-002"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[UR-002] Просмотр списка",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdEQ",
+              "content": {
+                "number": 6,
+                "title": "[UR-003] Поиск",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/6"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "UR-003"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[UR-003] Поиск",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdEo",
+              "content": {
+                "number": 7,
+                "title": "[UR-004] Редактирование",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/7"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "UR-004"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[UR-004] Редактирование",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdHI",
+              "content": {
+                "number": 9,
+                "title": "[FR-001] Создание заметки",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/9"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "FR-001"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[FR-001] Создание заметки",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdH4",
+              "content": {
+                "number": 10,
+                "title": "[FR-002] Список заметок",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/10"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "FR-002"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[FR-002] Список заметок",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdJ0",
+              "content": {
+                "number": 11,
+                "title": "[FR-003] Поиск заметок",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/11"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "FR-003"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[FR-003] Поиск заметок",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdLQ",
+              "content": {
+                "number": 12,
+                "title": "[FR-004] Редактирование",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/12"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "FR-004"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[FR-004] Редактирование",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdLo",
+              "content": {
+                "number": 13,
+                "title": "[FR-005] Удаление с подтверждением",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/13"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "FR-005"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[FR-005] Удаление с подтверждением",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdMc",
+              "content": {
+                "number": 14,
+                "title": "[NFR-001] Производительность списка",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/14"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-001"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-001] Производительность списка",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdNo",
+              "content": {
+                "number": 15,
+                "title": "[NFR-002] Атомарность хранения",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/15"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-002"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-002] Атомарность хранения",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdOU",
+              "content": {
+                "number": 16,
+                "title": "[NFR-003] Права доступа",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/16"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-003"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-003] Права доступа",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdOo",
+              "content": {
+                "number": 17,
+                "title": "[NFR-004] Русскоязычные ошибки",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/17"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldMilestoneValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-004"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-004] Русскоязычные ошибки",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdQg",
+              "content": {
+                "number": 18,
+                "title": "[NFR-005] Покрытие тестами",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/18"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-005"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-005] Покрытие тестами",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdRE",
+              "content": {
+                "number": 19,
+                "title": "[NFR-006] Локализация",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/19"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "NFR-006"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[NFR-006] Локализация",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "PVTI_lAHOE9ZKFs4Br2RizhJJdSk",
+              "content": {
+                "number": 8,
+                "title": "[UR-005] Удаление",
+                "state": "CLOSED",
+                "url": "https://github.com/konstmalinin-maker/requirements-demo/issues/8"
+              },
+              "fieldValues": {
+                "nodes": [
+                  {
+                    "__typename": "ProjectV2ItemFieldRepositoryValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldLabelValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldPullRequestValue"
+                  },
+                  {
+                    "__typename": "ProjectV2ItemIssueFieldValue",
+                    "field": {
+                      "name": "REQ-ID"
+                    },
+                    "issueFieldValue": {
+                      "value": "UR-005"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldTextValue",
+                    "text": "[UR-005] Удаление",
+                    "field": {
+                      "name": "Title"
+                    }
+                  },
+                  {
+                    "__typename": "ProjectV2ItemFieldSingleSelectValue",
+                    "name": "Done",
+                    "field": {
+                      "name": "Status"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
